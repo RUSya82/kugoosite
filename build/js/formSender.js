@@ -87,7 +87,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const modalImage = targetModal.querySelector('.modal-header img');
             const modalForm = targetModal.querySelector('form');
             const modalPrice = targetModal.querySelector('.modal-price');
-            const close = targetModal.querySelector('.btn-close');
 
             modalForm.addEventListener('submit', (e) => {
                 e.preventDefault();
@@ -98,22 +97,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 const address = name[1];
                 // add fields
                 formData.set('name', userName.trim()); //rewrite all fields "name"
-                if(address){
+                if (address) {
                     formData.append('address', address.trim());
                 }
                 formData.append('head', modalHeader.textContent);
-                if(modalImage){
+                if (modalImage) {
                     const imageUrl = `http://${window.location.hostname}${modalImage.getAttribute('src')}`;
                     formData.append('image', imageUrl);
                 }
                 let modalPriceText = '';
-                if(modalPrice){
+                if (modalPrice) {
                     modalPriceText = modalPrice.textContent.replace(/Итого:/, '');
                 }
                 formData.append('price', modalPriceText);
-                //close bootstrap modal
-                let event = new Event("click");
-                close.dispatchEvent(event);
                 // send data
                 postData(formData)
                     .then((response) => {
@@ -122,12 +118,16 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                         return response.text()
                     }).then((response) => {
-                        modalForm.reset();
-                        //show thanks
-                        showThanksModal();
-                    }).catch((error) => {
-                        console.error(error);
-                    });
+                    modalForm.reset();
+                    //close bootstrap modal
+                    bootstrap.Modal.getInstance(targetModal).hide();
+                    setTimeout(showThanksModal, 500);
+                }).then(() => {
+                    //show thanks
+
+                }).catch((error) => {
+                    console.error(error);
+                });
             });
 
         };
