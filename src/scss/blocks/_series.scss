@@ -1,0 +1,49 @@
+.series {
+    &__box {
+        background: $black;
+    }
+    &__section {
+        background: url('/img/series.png') no-repeat center / cover;
+        height: 100%;
+    }
+    &__kugoo {
+        width: 100%;
+    }
+    &__block {
+        font-weight: 500;
+        font-size: 20px;
+        color: $white;
+        margin-top: 20%;
+    }
+    &__subtitle {
+        font-size: 24px;
+    }
+    &__success {
+        margin-top: 25px;
+        display: flex;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 140px;
+    }
+    &__btn {
+        text-decoration: none;
+
+        &:hover {
+            color: $black;
+        }
+    }
+    &__online {
+        background: linear-gradient(270.59deg, rgba(255, 255, 255, 0.65) 0.35%, rgba(255, 255, 255, 0.32) 99.67%);
+        border-radius: 3px;
+        padding: 14px 30px;
+        margin-left: 15px;
+        font-size: 14px;
+        color: $white;
+        font-weight: 700;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

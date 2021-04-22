@@ -1,0 +1,190 @@
+.header {
+    &__box {
+        background: $greyEasy;
+        width: 100%;
+        height: 30px;
+    }
+    &__block {
+        a {
+            color: #777777;
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            position: relative;
+            padding: 0 15px;
+        }
+    }
+    &__menu-burger {
+        display: none;
+    }
+    &__city {
+        border-right: 1px solid #C4C4C4;
+    }
+    &__button {
+        background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+        width: 100%;
+        padding: 8px 0;
+        color: $white;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: $white;
+        height: 64px;
+    }
+    &__logo {
+        padding: 13px 30px;
+        width: 100%;
+    }
+    &__info {
+        font-size: 13px;
+        line-height: 16px;
+        display: block;
+        max-width: 180px;
+        color: $grey;
+        border-left: 1px solid #C4C4C4;
+        padding-left: 30px;
+    }
+    &__email:after {
+        content: '';
+        display: block;
+        background: url('/img/email.svg') no-repeat;
+        position: absolute;
+        top: 0;
+        left: -7px;
+        width: 14px;
+        height: 14px;
+    }
+    &__phone {
+        display: block;
+        color: $black;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 13px;
+        text-decoration: none;
+        position: relative;
+    }
+    &__inner {
+        display: flex;
+    }
+    &__whatsapp {
+        display: block;
+        background: url('/img/whatsapp.svg') no-repeat;
+        margin-right: 10px;
+        width: 14px;
+        height: 16px;
+    }
+    &__call {
+        display: block;
+        background: url('/img/call.svg') no-repeat;
+        margin-right: 10px;
+        width: 14px;
+        height: 16px;
+    }
+    &__text {
+        font-size: 11px;
+        color: $grey;
+    }
+    &__btn {
+        border: 1px solid #EA5455;
+        background:none;
+        width: 100%;
+        padding: 12px 0;
+        box-sizing: border-box;
+        border-radius: 3px;
+        color: $red;
+        &:hover {
+            background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+            border: none;
+            color: $white;
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0 6px;
+        text-decoration: none;
+
+        &:hover {
+            color: #1D1D1F;
+        }
+    }
+    &__nav {
+        background: #1D1D1F;
+        height: 40px;
+    }
+
+    ul.header__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    &__links {
+        color: $white;
+        padding: 10px 40px;
+        list-style: none;
+        cursor: pointer;
+
+        &:hover {
+            background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+        }
+    }
+    &__slide {
+        background: url('/img/home.jpg') no-repeat / cover;
+        width: 100%;
+        max-height: 644px;
+        height: 644px;
+    }
+    &__gradient {
+        background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+        opacity: 0.84;
+        height: 644px;
+    }
+    &__holder {
+        padding: 218px 0;
+        position: relative;
+    }
+    &__decr {
+        font-size: 330px;
+        font-weight: bold;
+        color: $white;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        opacity: 0.1;
+    }
+    &__column {
+        z-index: 2;
+    }
+    &__grid {
+        z-index: 20;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 64px;
+        text-align: center;
+        color: $white;
+    }
+    &__slogan {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 59px;
+        text-align: center;
+        color: $white;
+    }
+}
+
+.close {
+    display: none;
+}

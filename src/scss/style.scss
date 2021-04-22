@@ -1,0 +1,7 @@
+@import 'global/*.scss';
+@import '../components/bem-blocks/**/*.scss';
+@import 'blocks/**/*.scss';
+
+/* NOTE - import here your style modules */
+
+@import 'media';

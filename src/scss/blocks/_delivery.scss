@@ -1,0 +1,35 @@
+.delivery {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 63px;
+
+    &__subtitle {
+        color: $grey;
+    }
+    &__title {
+        color: #4D4D4D;
+        font-weight: bold;
+        font-size: 44px;
+        padding-bottom: 32px;
+    }
+    &__card {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+    &__images {
+        width: 100%;
+    }
+    &__content {
+        padding: 21px 34px 30px 34px;
+    }
+    &__lead, &__text {
+        padding-bottom: 15px;
+        color: #4D4D4D;
+    }
+    &__widget {
+        background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+        height: 24px;
+        color: $white;
+    }
+}

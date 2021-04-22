@@ -1,0 +1,88 @@
+html {
+	font-family: SF Pro Display;
+	box-sizing: border-box;
+	font-size: 14px;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	background: #F7F7F7;
+	height: 100%;
+	position: relative;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+button:focus,
+input:focus {
+	outline: transparent;
+}
+
+button {
+	@include no-btn;
+}
+
+.flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.--just-space {
+	justify-content: space-between;
+}
+
+.--just-center {
+	justify-content: center;
+}
+
+.--just-end {
+	justify-content: flex-end;
+}
+
+.--align-str {
+	align-items: stretch;
+}
+
+.--align-center {
+	align-items: center;
+}
+
+.--align-end {
+	align-items: flex-end;
+}
+
+.button {
+	background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 14px;
+	color: $white;
+	padding: 14px 30px;
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	display: none;
+}

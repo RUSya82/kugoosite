@@ -1,0 +1,15 @@
+.presents {
+    margin-top: 15px;
+    &__section {
+        background: url('/img/fon.png') no-repeat center / cover;
+    }
+    &__block {
+        color: $white;
+        margin-top: 20%;
+    }
+    &__desc {
+        font-size: 14px;
+        display: block;
+        padding-bottom: 10px;
+    }
+}

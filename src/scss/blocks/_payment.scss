@@ -1,0 +1,28 @@
+.payment {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__card {
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+    &__images {
+        width: 100%;
+    }
+    &__block {
+        padding: 24px 30px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,109 @@
+.waterproofing {
+    &__box {
+        background: url('/img/dot-grid.png');
+    }
+    &__section {
+        background: url('/img/water.png') no-repeat right;
+    }
+    &__block {
+        margin-top: 46px;
+    }
+    &__images {
+        width: 100%;
+    }
+    &__subtitle {
+        letter-spacing: 0.39em;
+        font-weight: 500;
+        color: #D7D7D7;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 53px;
+    }
+    &__aside {
+        display: flex;
+        align-items: center;
+        margin: 22px 0;
+    }
+    &__icon {
+        width: 24px;
+        height: 24px;
+        padding: 0 10px;
+        border-radius: 50%;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        color: #C4C4C4;
+        font-weight: bold;
+    }
+    &__excerpt {
+        padding-left: 10px;
+    }
+    &__body {
+        background: #F0F0F2;
+        box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 15px 24px;
+    }
+    &__lead {
+        font-weight: 600;
+        font-size: 18px;
+        padding: 13px 0 7px 0;
+        color: $grey;
+    }
+    &__desc {
+        line-height: 160.5%;
+    }
+    &__wrapper {
+        display: flex;
+        margin: 12px 0;
+    }
+    &__moisture {
+        background: url('/img/moisture.svg') no-repeat center;
+        width: 60px;
+        height: 44px;
+    }
+    &__protection {
+        background: url('/img/protection.svg') no-repeat center;
+        width: 60px;
+        height: 44px;
+    }
+    &__tagline {
+        padding-left: 15px;
+    }
+    &__button {
+        width: 100%;
+        margin-top: 23px;
+    }
+    &__sale {
+        background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-weight: 500;
+        color: $white;
+        height: 37px;
+
+    }
+}
+.marquee {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0;
+    font-family: sans-serif;
+    white-space: nowrap;
+    cursor: default;
+    user-select: none;
+  }
+  
+  .marquee__inner {
+    font-size: 14px;
+    padding: 0 20px;
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+  }
+

@@ -1,0 +1,39 @@
+.footer {
+    background: #FFFFFF;
+
+    &__studio {
+        display: flex;
+        justify-items: center;
+        justify-content: flex-end;
+    }
+    &__container {
+        align-items: center;
+        display: flex;
+
+        img {
+            margin-right: 10px;
+        }
+    }
+    &__icon {
+        display: block;
+    }
+    &__box {
+        padding: 20px 0;
+    }
+    &__link, &__copy {
+        font-size: 12px;
+        line-height: 15px;
+        color: #484848;
+    }
+    &__block {
+        font-size: 12px;
+        line-height: 15px;
+        color: #484848;
+        a {
+            font-size: 12px;
+            line-height: 15px;
+            text-decoration-line: underline;
+            color: #484848;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+
+.modal-dialog {
+    max-width: 400px;
+    font-family: SF Pro Display;
+}
+
+.modal-header{
+    border: none;
+    display: block;
+    padding: 30px 35px 20px 35px;
+}
+
+.btn-close {
+    position: absolute;
+    right: 4%;
+    top: 4%;
+}
+
+.modal-footer {
+    border: none;
+    display: flex;
+    padding: 0 0 30px 0;
+}
+
+.modal-title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    display: block;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 41px;
+    color: #4D4D4D;
+}
+
+.modal-text {
+    display: block;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #717F90;
+    margin-top: 15px;
+}
+
+.modal-body {
+    padding: 0 32px;
+}
+
+.modal-form {
+    border: 1px solid #F0F0F2;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #777777;
+    padding: 15px 30px;
+    margin: 5px 0;
+}
+
+.modal-page {
+    display: flex;
+    padding: 15px 0 20px 0;
+}
+
+#modal-checkbox {
+    margin-top: 5px;
+}
+
+.modal-checkbox {
+    padding-left: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #777777;
+}
+
+.modal-btn {
+    background: linear-gradient(100.53deg, #FEB692 11.16%, #EA5455 96.87%);
+    border-radius: 25px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.modal-checkout-text, .modal-checkout-title {
+    text-align: center;
+}
+
+.modal-product {
+    width: 100%;
+}
+
+.modal-price {
+    font-family: SF Pro Display;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.modal-strong {
+    padding-right: 5px;
+}
+
+.modal-close {
+    right: 4%;
+    top: 2%;
+}

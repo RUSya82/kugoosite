@@ -1,0 +1,61 @@
+.questions {
+    &__box {
+        background: url('/img/dot-grid.png');
+    }
+    &__subtitle {
+        padding-top: 55px;
+        color: $grey;
+    }
+    &__title {
+        color: #4D4D4D;
+        font-weight: bold;
+        font-size: 44px;
+    }
+    &__block {
+        padding: 19px 0 20px 0;
+    }
+    &__images {
+        width: 100%;
+    }
+    &__head {
+        padding-top: 55px;
+    }
+    &__ask {
+        background: #F0F0F2;
+        padding: 30px 45px;
+        width: 100%;
+    }
+    &__tagline {
+        padding-bottom: 10px;
+    }
+    &__text {
+        line-height: 140%;
+        font-weight: 300;
+    }
+    &__excerpt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__btn {
+        width: 100%;
+    }
+    &__sign {
+        border: 1px solid #EA5455;
+        box-sizing: border-box;
+        padding: 4px 9px;
+        border-radius: 50%;
+        margin-right: 15px;
+        color: $red;
+    }
+}
+
+.accordion-button:not(.collapsed), .accordion-item {
+    background: none;
+    color: $black;
+}
+
+.accordion-item {
+    margin: 15px 0;
+}
